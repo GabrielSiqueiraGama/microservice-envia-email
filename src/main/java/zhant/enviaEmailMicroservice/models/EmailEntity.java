@@ -21,7 +21,7 @@ import zhant.enviaEmailMicroservice.enums.StatusEmail;
 @NoArgsConstructor
 @Entity
 @Table(name ="tb_email")
-public class Email implements Serializable {
+public class EmailEntity implements Serializable {
 
 	
 	private static final long serialVersionUID = 1L;
